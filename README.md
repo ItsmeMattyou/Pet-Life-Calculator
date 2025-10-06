@@ -1,6 +1,6 @@
 # 🐾 Pet Life Calculator
 
-A beautiful, responsive React application that calculates your pet's age in "pet years" with a modern, mobile-first design.
+A beautiful, responsive React application that calculates your pet's age in "pet years" with a modern, mobile-first design and side-by-side layout.
 
 ![Pet Life Calculator](https://img.shields.io/badge/React-18.2.0-blue) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3.2-38B2AC) ![License](https://img.shields.io/badge/License-MIT-green)
 
@@ -10,6 +10,7 @@ A beautiful, responsive React application that calculates your pet's age in "pet
 - **Dog Size Options**: Small, Medium, or Large dogs with different aging rates
 - **Date Picker**: Select your pet's birth date or estimated birth date
 - **Age Calculation**: Get results in Days, Months, and Years
+- **Side-by-Side Layout**: Input form and results displayed side by side on desktop
 - **Responsive Design**: Mobile-first approach with beautiful animations
 - **Modern UI**: Glass morphism effects, gradients, and smooth transitions
 - **No Database**: Pure frontend application, perfect for static hosting
@@ -139,12 +140,13 @@ The app uses custom pastel colors defined in `tailwind.config.js`:
 2. **Select Dog Size** (if applicable): Small, Medium, or Large
 3. **Enter Birth Date**: Use the date picker to select your pet's birth date
 4. **Calculate**: Click the "Calculate Pet Age" button
-5. **View Results**: See your pet's age in days, months, and years
+5. **View Results**: See your pet's age in days, months, and years displayed on the right side
 
 ## 🎨 Design Features
 
 - **Glass Morphism**: Semi-transparent cards with backdrop blur
 - **Gradient Backgrounds**: Beautiful pastel gradients
+- **Side-by-Side Layout**: Input form and results displayed side by side on desktop
 - **Responsive Layout**: Works perfectly on all device sizes
 - **Smooth Animations**: Subtle animations and transitions
 - **Modern Typography**: Clean, readable fonts
@@ -155,7 +157,7 @@ The app uses custom pastel colors defined in `tailwind.config.js`:
 The app is designed with a mobile-first approach:
 - Touch-friendly buttons and inputs
 - Optimized spacing for small screens
-- Responsive grid layouts
+- Responsive grid layouts that stack on mobile
 - Readable typography on all devices
 
 ## 🤝 Contributing
@@ -179,4 +181,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 **Made with ❤️ for pet lovers everywhere!** 🐾
-
