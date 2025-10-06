@@ -38,7 +38,7 @@ function App() {
           <div className="container mx-auto px-4 text-center">
             <div className="bg-white/20 backdrop-blur-sm rounded-full px-6 py-3 inline-block">
               <p className="text-white/90 font-inter text-sm">
-                🐾 Pet Life Calculator by <span className="font-semibold">Your Name</span>
+                🐾 Pet Life Calculator by <span className="font-semibold">ItsmeMattyou</span>
               </p>
             </div>
           </div>
